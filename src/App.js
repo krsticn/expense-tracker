@@ -24,9 +24,14 @@ const App = () => {
     },
   ];
 
+  const addExpenseHandler = (newExpenseData) => {
+    console.log(newExpenseData);
+    console.log("Logged in App.js");
+  };
+
   return (
     <div>
-      <NewExpenses />
+      <NewExpenses onNewSavedData={addExpenseHandler} />
       <ExpensesList items={expenses} />
     </div>
   );
