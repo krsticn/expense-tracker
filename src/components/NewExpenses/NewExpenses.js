@@ -7,7 +7,7 @@ const NewExpenses = (props) => {
       ...savedExpenceData,
       id: Math.ceil(Math.random() * 10).toString(),
     };
-    props.onNewSavedData(expenseData);
+    props.onAddExpense(expenseData);
   };
 
   return (

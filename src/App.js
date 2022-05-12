@@ -31,7 +31,7 @@ const App = () => {
 
   return (
     <div>
-      <NewExpenses onNewSavedData={addExpenseHandler} />
+      <NewExpenses onAddExpense={addExpenseHandler} />
       <ExpensesList items={expenses} />
     </div>
   );
