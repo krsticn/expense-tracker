@@ -1,13 +1,13 @@
 .new-expense {
-    background-color: #253C78;
-    color: white;
+    background-color: #177a42;
+    color: #f2f2f2;
     padding: 1rem;
     margin: 2rem auto;
     width: 50rem;
     max-width: 95%;
     border-radius: 15px;
     text-align: center;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
   }
   
   .new-expense button {
